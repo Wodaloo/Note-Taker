@@ -8,7 +8,7 @@ let notes = notesData;
 
 const saveDb = () => {
     fs.writeFileSync(
-        path.resolve(__dirname, "./db/db.json"),
+        path.resolve(__dirname, "../db/db.json"),
         JSON.stringify(notes)
     );
 };
